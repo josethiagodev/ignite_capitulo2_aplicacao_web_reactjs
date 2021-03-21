@@ -25,14 +25,10 @@ Saiba o que utilizei nesta aplicação front-end web com o ReactJS!
 
 <h2>🚀 Começando o projeto:</h2>
 <pre>
-  <span class="pl-c">
-  <span class="pl-c">#</span> Clone o projeto:
-  </span>
+  <span class="pl-c"><span class="pl-c">#</span> Clone o projeto:</span>
   $ git clone https://github.com/josethiagodev/ignite_capitulo2_aplicacao_web_reactjs.git
 
-  <span class="pl-c">
-  <span class="pl-c">#</span> Entrar no diretório:
-  </span>
+  <span class="pl-c"><span class="pl-c">#</span> Entrar no diretório:</span>
   $ <span class="pl-c1">cd</span> ignite_capitulo2_aplicacao_reactjs
 </pre>
 <br><br>
