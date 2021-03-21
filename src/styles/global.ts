@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --text-title: #303030;
     --text-body: #969CB3;
+    --border-button: #d8d8d8d8;
 
     --orange-light: #F57F17;
     --orange-medium: #FF6F00;
@@ -44,4 +45,48 @@ export const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, strong { font-family: 'Poppins', sans-serif; font-weight: 700; }
   button { cursor: pointer; font-family: 'Poppins', sans-serif; font-weight: 500; }
   [disabled] { opacity: 0.6; cursor: not-allowed; }
+
+  // MODAL Transactions
+  .react-modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .react-modal-content {
+    outline: none;
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--background);
+    border-radius: 0.75rem;
+  }
+
+  .btn-close-modal {
+    outline: none;
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    border: 0;
+    background: transparent;
+    color: var(--white);
+    transition: filter 0.25s ease;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
 `
