@@ -72,7 +72,7 @@ interface BtnTransactionProps {
 
 const colors = {
   green: '#33CC95',
-  red: '#E52E4D'
+  red: '#E52E4D',
 };
 
 export const BtnTransaction = styled.button<BtnTransactionProps>`
@@ -81,7 +81,7 @@ export const BtnTransaction = styled.button<BtnTransactionProps>`
   justify-content: center;
   height: 3.2rem;
   
-  background: ${ (props) => props.isActive 
+  background: ${(props) => props.isActive 
     ? transparentize(0.9, colors[props.activeColor])
     : 'transparent' 
   };

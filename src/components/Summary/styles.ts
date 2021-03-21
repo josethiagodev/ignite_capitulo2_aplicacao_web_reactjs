@@ -15,15 +15,16 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 1.1rem;
+      font-size: 1rem;
+      line-height: normal;
     }
 
     strong {
       display: block;
       margin-top: 1rem;
-      font-size: 2.4rem;
+      font-size: 2.3rem;
       font-weight: 600;
-      line-height: 2.4rem;
+      line-height: 2.3rem;
     }
 
     &.totalBackground { background: linear-gradient(var(--purple-light) 25%, var(--purple-regular) 75%) !important; color: var(--white); }

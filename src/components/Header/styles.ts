@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
   max-width: 100%;
-  background: var(--purple-medium);
+  background: linear-gradient(to top, var(--purple-bold) 0%, var(--purple-medium) 100%); 
+  color: var(--white);
 `;
 
 export const Content = styled.div`
@@ -12,7 +13,6 @@ export const Content = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 2.5rem 0 9rem 0;
-  background: var(--purple-medium);
 
   img { height: 47px; }
   button {

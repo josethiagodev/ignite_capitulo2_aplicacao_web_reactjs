@@ -10,17 +10,20 @@ export const Container = styled.div`
     text-align: left;
 
     th {
-      color: var(--text-body);
-      font-weight: 400;
-      padding: 0.85rem 2rem;
-      line-height: 1rem;
+      padding: 1rem 1.5rem;
+      color: var(--text-title);
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: normal;
+      border: 0;
+      background-color: rgba(0, 0, 0, 0.045);
     }
 
     td {
-      color: var(--text-body);
+      font-size: 1rem;
       font-weight: 400;
-      padding: 1rem 2rem;
-      line-height: 1.5rem;
+      padding: 1.15rem 1.5rem;
+      line-height: normal;
       border: 0;
       border-radius: 0.35rem;
       background: var(--white);
@@ -30,8 +33,8 @@ export const Container = styled.div`
         color: var(--text-title);
       }
 
-      &.positive { color: var(--text-green); font-weight: 600; }
-      &.negative { color: var(--text-red); font-weight: 600; }
+      &.deposit { color: var(--text-green); font-size: 1.05rem; font-weight: 600; }
+      &.withdraw { color: var(--text-red); font-size: 1.05rem; font-weight: 600; }
     }
   }
 `;
